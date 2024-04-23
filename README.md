@@ -7,9 +7,6 @@ This sample project focuses on "Vechicle Detection, Tracking and Counting" using
 
 ---
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/36344830-095cc4ec-1431-11e8-8e57-976c40d87cf9.gif">
-</p>
 
 ---
 
@@ -42,9 +39,7 @@ The input video can be accessible by this [link](https://github.com/ahmetozlu/ve
 
 ### System Architecture
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/103478400-80414280-4dd7-11eb-9874-3735359e2c20.png">
-</p>
+
 
 - Vehicle detection and classification have been developed using TensorFlow Object Detection API, [see](https://github.com/ahmetozlu/vehicle_counting_tensorflow/blob/master/vehicle_detection_main.py) for more info.
 - Vehicle speed prediction has been developed using OpenCV via image pixel manipulation and calculation, [see](https://github.com/ahmetozlu/vehicle_counting_tensorflow/tree/master/utils/speed_and_direction_prediction_module) for more info.
@@ -127,18 +122,3 @@ After completing these 4 installation steps that are given at above, you can tes
 
 ---
 
-## Citation
-If you use this code for your publications, please cite it as:
-
-    @ONLINE{vdtct,
-        author = "Ahmet Özlü",
-        title  = "Vehicle Detection, Tracking and Counting by TensorFlow",
-        year   = "2018",
-        url    = "https://github.com/ahmetozlu/vehicle_counting_tensorflow"
-    }
-
-## Author
-Ahmet Özlü
-
-## License
-This system is available under the MIT license. See the LICENSE file for more info.
